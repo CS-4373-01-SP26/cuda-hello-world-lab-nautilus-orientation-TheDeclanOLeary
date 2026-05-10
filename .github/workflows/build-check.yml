@@ -28,7 +28,7 @@ jobs:
       uses: Jimver/cuda-toolkit@v0.2.35
       with:
         cuda: '12.2.0'
-        method: local
+        method: network
         sub-packages: '["nvcc"]'
 
     - name: Verify nvcc
